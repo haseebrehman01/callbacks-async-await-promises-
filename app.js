@@ -1,11 +1,11 @@
-//synchronus.................................................
+//synchronus...................................................................................
 // for (let i = 0; i < 1000000000000000000000000000; i++) {
 // console.log(i)
 
 // }
 // console.log("haseeb")
 
-//asynchronus..............................................
+//asynchronus.....................................................................................
 
 // function runAfter1Sec(){
 //     setTimeout(function(){
@@ -16,7 +16,7 @@
 
 // console.log("hello")
 
-//callback...................................................
+//callback............................................................................
 
 // Callback Function means: When we pass a function as a parameter to another function, we expect it
 // to be called after a certain task that may take time (like fetching data) is completed.
@@ -85,7 +85,7 @@
 //   });
 // });
 
-// promise....................................................
+// promise............................................................................................
 // function runAfter1Sec(num) {
 //   return new Promise(function (resolve) {
 //     setTimeout(function () {
@@ -144,5 +144,25 @@
 //async / await ..............................................................................
 
 
-
+// Error handling ...........................................................................
 //try / catch
+// let a = 10
+// let b = 10
+// console.log(a)
+// console.log(b)
+// console.log(a+b)
+// console.log(a-b)
+// console.log(a+b)
+// // Attempt to log a variable (d) that is not defined, which will cause an error
+// try {
+//     console.log(a - d); // This will throw a ReferenceError since d is not defined
+// } catch (error) {
+//     console.log(error); // Catch the error and log it to the console
+// }
+// console.log(a + b); // Log the sum of a and b again (code continues to execute after the error)
+// console.log(a-b)
+// console.log(a+b)
+// console.log(a-b)
+
+
+
